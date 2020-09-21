@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block body %}
+
+
+    <div class="text-center mb-4">
+        <img class="mb-4" src="{{ url_for('static', filename='img/bootstrap-solid.svg') }}" alt="Web Site Tools Analytics Platform" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Web Site Tools<br />Analytics Platform</h1>
+        <p>Страница не найдена</p>
+        <p>Вернуться на <a href="{{ url_for('index') }}">главную</a></p>
+    </div>
+
+
+
+
+{% endblock %}
