@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=6jxveKOdyNg&list=PLA0M1Bcd0w8yrxtwgqBvT6OM4HkOU3
 https://pythonru.com/uroki/19-struktura-i-jeskiz-prilozhenija-flask
 https://pythonru.com/uroki/14-sozdanie-baz-dannyh-vo-flask
 
-python runner.py runserver - запуска проекта в терминале
+python runner.py runserver - запуск проекта в терминале
 from app import db - в пайтон-консоли подготовка к инсталляции таблиц БД
 db.create_all() - создание таблиц БД
 python runner.py db init - инициация репозитория для миграции
